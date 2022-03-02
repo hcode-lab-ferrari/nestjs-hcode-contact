@@ -7,7 +7,7 @@ import {
     Param,
     Post,
 } from '@nestjs/common';
-import { HcodeContactService } from '.';
+import { HcodeContactService } from './hcode-contact.service';
 
 @Controller('contacts')
 export class ContactController {
