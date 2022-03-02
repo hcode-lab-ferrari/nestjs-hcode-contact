@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "git": "git add --all && git commit -m build",
+    "postgit": "npm run new:version",
+    "new:version": "npm version patch",
+    "preprod": "npm run git",
+    "prod": "npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hcode-lab-ferrari/nestjs-hcode-contact.git"
   },
-  "author": "",
+  "author": "Hcode Treinamentos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hcode-lab-ferrari/nestjs-hcode-contact/issues"
