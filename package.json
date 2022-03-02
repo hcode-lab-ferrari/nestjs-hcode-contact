@@ -1,0 +1,19 @@
+{
+  "name": "hcode-contact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcode-lab-ferrari/nestjs-hcode-contact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcode-lab-ferrari/nestjs-hcode-contact/issues"
+  },
+  "homepage": "https://github.com/hcode-lab-ferrari/nestjs-hcode-contact#readme"
+}
